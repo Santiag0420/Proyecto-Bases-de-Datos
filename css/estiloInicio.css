@@ -1,0 +1,139 @@
+.progress-bar-container {
+    width: 475px;
+    height: 10px;
+    background-color: #f0f0f0;
+}
+.progress-bar {
+    width: 0%;
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.5s linear;
+}
+
+#botonArchivo {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+#botonArchivo:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Estilo de sombra al hacer hover */
+    background-color: rgb(209, 219, 250);
+}
+
+#iconoSubirArchivo{
+    display: inline-block;
+    width: 20px; /* Ancho de la imagen */
+    height: 20px; /* Altura de la imagen */
+    background-image: url("../images/anadir.png"); /* Ruta de la imagen */
+    margin-right: 5px;
+}
+
+.menu-contextual {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    z-index: 999;
+
+  }
+  
+  .menu-contextual ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-contextual ul li {
+    margin-bottom: 5px;
+  }
+  
+  .menu-contextual ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .carta {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.col-2-padding-y {
+    width: 13%;
+    position:absolute;
+    top: 10%;
+}
+.col-2{  
+     width: 13%;
+    position:absolute;
+    top: 10%;
+}
+
+.col-10{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+.nav-tabs {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-bottom: 35px;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #ddd;
+}
+
+.center {
+    text-align: center;
+}
+
+.d-flex{
+    width: 82%;
+    position: relative;
+    top: 0;
+    left: 13%;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link img {
+    margin-right: 10px;
+}
